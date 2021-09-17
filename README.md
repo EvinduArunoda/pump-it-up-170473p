@@ -42,7 +42,7 @@
 ### Data Cleaning
 
 * Originally there were 41 features and for better results, only 21 of them were chosen.
-* Following features were dropped.
+* Following features were dropped.(Mostly which were similar to each other)
   * scheme_name : This feature was drooped due to having too many null values.(35258)
   * wpt_name
   * num_private
@@ -62,8 +62,8 @@
   * installer
   * public_meeting
   * permit
-  * date_recorded
-  * construction_year
+  * date_recorded : Was used to create new feature functional_period
+  * construction_year : Was used to create new feature functional_period
 
 * Then columns with Dtype object were converted into lower case.
 
