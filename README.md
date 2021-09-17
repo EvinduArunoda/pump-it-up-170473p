@@ -70,3 +70,7 @@
 ### Preprocessing
 
 * For preprocessing, using pd.factorize labels are encoded into categorical variables.
+
+## Classifier
+
+* RandomForrestClassifier was used with, 1000 iterations.
