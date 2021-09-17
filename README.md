@@ -76,3 +76,8 @@
 ## Classifier
 
 * RandomForrestClassifier was used with, 1000 iterations.
+
+## Proof of Submission
+![Screenshot 2021-09-17 at 22 25 47](https://user-images.githubusercontent.com/46133502/133831740-5f868bdd-f96e-45d6-aab7-09091683d390.png)
+
+
