@@ -41,10 +41,29 @@
 
 ### Data Cleaning
 
+* Originally there were 41 features and for better results, only 21 of them were chosen.
 * Following features were dropped.
   * scheme_name : This feature was drooped due to having too many null values.(35258)
-  * 
-
+  * wpt_name
+  * num_private
+  * subvillage
+  * region_code : This feature was dropped because it is same as the region feature
+  * recorded_by
+  * management_group
+  * extraction_type_group
+  * extraction_type_class
+  * payment : This feature was dropped because it is same as the payment_type feature
+  * quality_group
+  * quantity_group
+  * source_type :  This feature was dropped because it is same as the source feature
+  * source_class
+  * waterpoint_type_group
+  * ward
+  * installer
+  * public_meeting
+  * permit
+  * date_recorded
+  * construction_year
 
 * Then columns with Dtype object were converted into lower case.
 
